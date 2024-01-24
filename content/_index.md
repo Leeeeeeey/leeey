@@ -42,9 +42,17 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-  - block: 简历
+  - block: skills
     content:
-      title: Employment & Education 工作&教育经历
+      title: Skills
+      text: ''
+      # Choose a user to display skills from (a folder name within `content/authors/`)
+      username: admin
+    design:
+      columns: '1'
+  - block: experience
+    content:
+      title: Experience
       # Date format for experience
       #   Refer to https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
@@ -54,33 +62,30 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: 讲师
-          company: 安徽师范大学数学与统计学院
-          company_url: 'https://math.ahnu.edu.cn'
+        - title: CEO
+          company: GenCoin
+          company_url: ''
           company_logo: org-gc
-          location: 安徽 芜湖
-          date_start: '2022-09'
-          date_end: '至今'
-          
-        - title: 理学博士学位
-          company: 中国科学技术大学数学科学学院
-          company_url: 'http://math.ustc.edu.cn'
+          location: California
+          date_start: '2021-01-01'
+          date_end: ''
+          description: |2-
+              Responsibilities include:
+
+              * Analysing
+              * Modelling
+              * Deploying
+        - title: Professor of Semiconductor Physics
+          company: University X
+          company_url: ''
           company_logo: org-x
-          location: 安徽 合肥
-          date_start: '2016-09'
-          date_end: '2022-06'
-          description: 博士指导导师:任广斌教授， 博士学位论文:《八元数超复分析及其应用》.
-    
-        - title: 理学学士学位
-          company: 中南大学数学与统计学院
-          company_url: 'https://math.csu.edu.cn'
-          company_logo: org-x
-          location: 湖南 长沙
-          date_start: '2012-09'
-          date_end: '2016-06'
+          location: California
+          date_start: '2016-01-01'
+          date_end: '2020-12-31'
+          description: Taught electronic engineering and researched semiconductor physics.
     design:
       columns: '2'
-  - block: Teaching 教学
+  - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
       title: 'Accomplish&shy;ments'
