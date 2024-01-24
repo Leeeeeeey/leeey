@@ -42,9 +42,9 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-  - block: skills
+  - block: 简历
     content:
-      title: Skills
+      title: Employment & Education 工作&教育经历
       text: ''
       # Choose a user to display skills from (a folder name within `content/authors/`)
       username: admin
