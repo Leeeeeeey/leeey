@@ -6,8 +6,8 @@ title: 李勇
 name_pronunciation: Leey
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Yong
+last_name: Li
 
 # Status emoji
 status:
@@ -29,9 +29,8 @@ bio: 我的研究方向和兴趣是多复变与Clifford分析，最近的研究�
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Clifford分析
+  - 单位圆盘上的不变调和函数
 
 # Education to show in About widget
 education:
@@ -45,44 +44,7 @@ education:
 
 
 # Skills
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-skills:
-  - name: Technical
-    items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: python
-        icon_pack: fab
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-line
-        icon_pack: fas
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: database
-        icon_pack: fas
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-hiking
-        icon_pack: fas
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-        icon_pack: fas
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera-retro
-        icon_pack: fas
+
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -117,6 +79,5 @@ social:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
+我的研究方向和兴趣是多复变与Clifford分析，最近的研究兴趣为Clifford分析中的Gilbert猜想。
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-{style="text-align: justify;"}
