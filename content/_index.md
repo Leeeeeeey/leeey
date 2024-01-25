@@ -62,22 +62,27 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-         - title: 讲师
-          company: 安徽师范大学数学与统计学院
-          company_url: 'https://math.ahnu.edu.cn'
+        - title: CEO
+          company: GenCoin
+          company_url: ''
           company_logo: org-gc
-          location: 安徽 芜湖
-          date_start: '2022-09'
+          location: California
+          date_start: '2021-01-01'
           date_end: ''
-          
-        - title: 理学博士学位
-          company: 中国科学技术大学数学科学学院
-          company_url: 'http://math.ustc.edu.cn'
+          description: |2-
+              Responsibilities include:
+
+              * Analysing
+              * Modelling
+              * Deploying
+        - title: Professor of Semiconductor Physics
+          company: University X
+          company_url: ''
           company_logo: org-x
-          location: 安徽 合肥
-          date_start: '2016-09'
-          date_end: '2022-06'
-          description: 博士指导导师:任广斌教授， 博士学位论文:《八元数超复分析及其应用》.
+          location: California
+          date_start: '2016-01-01'
+          date_end: '2020-12-31'
+          description: Taught electronic engineering and researched semiconductor physics.
     design:
       columns: '2'
   - block: accomplishments
