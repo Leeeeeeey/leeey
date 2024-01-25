@@ -68,7 +68,7 @@ sections:
           company_logo: org-gc
           location: 安徽 芜湖
           date_start: '2022-09'
-          date_end: '至今'
+          date_end: ''
           
         - title: 理学博士学位
           company: 中国科学技术大学数学科学学院
