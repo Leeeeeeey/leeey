@@ -78,16 +78,8 @@ sections:
           date_start: '2016-09'
           date_end: '2022-06'
           description: 博士指导导师:任广斌教授， 博士学位论文:《八元数超复分析及其应用》.
-    
-        - title: 理学学士学位
-          company: 中南大学数学与统计学院
-          company_url: 'https://math.csu.edu.cn'
-          company_logo: org-x
-          location: 湖南 长沙
-          date_start: '2012-09'
-          date_end: '2016-06'
     design:
-      columns: '3'
+      columns: '2'
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
